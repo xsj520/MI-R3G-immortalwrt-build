@@ -83,7 +83,6 @@ mv /tmp/AdGuardHome/AdGuardHome ./ && rm -rf /tmp/AdGuardHome
 
 
 sed -i 's/"网络存储"/"存储"/g' `grep "网络存储" -rl ./`
-sed -i 's/"HomeProxy"/"科学上网"/g' `grep "HomeProxy" -rl ./`
 sed -i 's/"启动项"/"启动项目"/g' `grep "启动项" -rl ./`
 sed -i 's/"挂载点"/"挂载地点"/g' `grep "挂载点" -rl ./`
 sed -i 's/"重启"/"重启开关"/g' `grep "重启" -rl ./`

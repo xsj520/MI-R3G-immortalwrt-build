@@ -80,4 +80,4 @@ xz -d -c /tmp/upx-4.2.4-amd64_linux.tar.xz | tar -x -C "/tmp"
 /tmp/upx-4.2.4-amd64_linux/upx --ultra-brute /tmp/AdGuardHome/AdGuardHome > /dev/null 2>&1
 mv /tmp/AdGuardHome/AdGuardHome ./ && rm -rf /tmp/AdGuardHome
 
-sed -i 's/"网络存储"/"存储"/g' `grep "网络存储" -rl ./`
+

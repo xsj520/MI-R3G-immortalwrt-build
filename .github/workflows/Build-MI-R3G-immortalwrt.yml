@@ -30,9 +30,6 @@ env:
   DIY_SH: diy.sh
   TZ: Asia/Shanghai
 name: Build and Release
-on:
-  push:
-    branches: [ main ]
 
 permissions:
   contents: write # 关键配置，赋予创建Release的权限  

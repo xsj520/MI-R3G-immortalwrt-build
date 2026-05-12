@@ -29,10 +29,6 @@ env:
   UPLOAD_RELEASE: true
   DIY_SH: diy.sh
   TZ: Asia/Shanghai
-name: Build and Release
-
-permissions:
-  contents: write # 关键配置，赋予创建Release的权限  
 
 jobs:
   build:

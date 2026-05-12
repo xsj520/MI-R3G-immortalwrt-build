@@ -104,6 +104,6 @@ sed -i 's/"Watchcat"/"断网重启"/g' `grep "Watchcat" -rl ./`
 sed -i 's/"SQM 队列管理"/"网络控制"/g' `grep "SQM 队列管理" -rl ./`
 sed -i 's/"进程"/"进程情况"/g' `grep "进程" -rl ./`
 sed -i 's/"ShadowSocksR Plus+"/"科学上网"/g' `grep "ShadowSocksR Plus+" -rl ./`
-sed -i 's/"Plugins"/"全局设置"/g' `grep "Plugins" -rl ./`
+
 sed -i 's/"插件"/"插件设置"/g' `grep "插件" -rl ./`
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `grep "Turbo ACC 网络加速" -rl ./`
